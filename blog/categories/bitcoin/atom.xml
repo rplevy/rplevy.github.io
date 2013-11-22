@@ -1,100 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>rplevy</title>
-  <meta name="author" content="Robert P. Levy">
-
-  
-  <meta name="description" content="I decided to write this article mainly to compile my notes on the architecture of bitcoin as I studied the Satoshi Nakamoto whitepaper and protocol &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><![CDATA[Category: Bitcoin | rplevy]]></title>
+  <link href="http://rplevy.github.io/blog/categories/bitcoin/atom.xml" rel="self"/>
+  <link href="http://rplevy.github.io/"/>
+  <updated>2013-11-22T03:11:43-08:00</updated>
+  <id>http://rplevy.github.io/</id>
+  <author>
+    <name><![CDATA[Robert P. Levy]]></name>
+    <email><![CDATA[rplevy@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-  <link rel="canonical" href="http://rplevy.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="rplevy" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">rplevy</a></h1>
-  
-    <h2>web log</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:rplevy.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/11/21/notes-on-bitcoin/">Notes on Bitcoin</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-11-21T14:31:42-08:00" pubdate data-updated="true">Nov 21<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I decided to write this article mainly to compile my notes on the architecture of bitcoin as I studied the Satoshi Nakamoto whitepaper and protocol documentation (doing some due dilligence related to a project I am working on).</p>
+  <entry>
+    <title type="html"><![CDATA[Notes on Bitcoin]]></title>
+    <link href="http://rplevy.github.io/blog/2013/11/21/notes-on-bitcoin/"/>
+    <updated>2013-11-21T14:31:42-08:00</updated>
+    <id>http://rplevy.github.io/blog/2013/11/21/notes-on-bitcoin</id>
+    <content type="html"><![CDATA[<p>I decided to write this article mainly to compile my notes on the architecture of bitcoin as I studied the Satoshi Nakamoto whitepaper and protocol documentation (doing some due dilligence related to a project I am working on).</p>
 
 <p>There are many potentially very exciting applications made possible by bitcoin (or a successor cryptocurrency), with mind-blowing implications for the evolution of economic and social orders, but in this article I will focus specifically on the details of bitcoin as an existing technology, independent of possible uses and technologies that may be built on top of this versatile protocol.</p>
 
@@ -155,68 +79,7 @@
 <h2>Intrinsic Value</h2>
 
 <p>Some currencies are backed by commodities such as gold. USD or the Euro for example are fiat currencies, backed by the perceived credibility of their respective central government authorities. The intrinsic value that backs bitcoin is considered to derive from a combination of factors including its relative anonymity, reduced potential for currency manipulation, tendency toward low oligarchiness, inflation over time, low transaction fees, global availability, and speed of transfer (compared to something like ACH bank transfers for example).</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/11/21/notes-on-bitcoin/">Notes on Bitcoin</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Robert P. Levy -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
