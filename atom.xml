@@ -4,7 +4,7 @@
   <title><![CDATA[rplevy]]></title>
   <link href="http://rplevy.github.io/atom.xml" rel="self"/>
   <link href="http://rplevy.github.io/"/>
-  <updated>2013-11-22T16:31:46-08:00</updated>
+  <updated>2013-11-22T16:45:17-08:00</updated>
   <id>http://rplevy.github.io/</id>
   <author>
     <name><![CDATA[Robert P. Levy]]></name>
@@ -57,7 +57,7 @@
 <ol>
 <li>A sha-256 hash of the block&rsquo;s header is generated. An arbitrary nonce starting at 1 and incremented on subsequent executions is included in the header so that subsequent hashes will differ.</li>
 <li>The hash of the header must be &lt;= the current target (see next bullet) for the block to be accepted. For this reason lower targets are the means of increasing difficulty. If the hash is greater than the target, repeat step 1 again (increase nonce, hash, lather, rinse, repeat).</li>
-<li>The first node that happens to arbitrarily win the race to compute a hash &lt;= the target, gets a &ldquo;block reward&rdquo; of coin assigned to the miner&rsquo;s address. The hash constitutes a proof of work because it is determined the previous node, the included transactions, and the specific nonce that made the hash fit the constraints of the target. The reward is a special type of transaction that is recorded as the first transaction in the block. Every 210,000 blocks the block reward is cut in half.</li>
+<li>The first node that happens to arbitrarily win the race to compute a hash &lt;= the target, gets a &ldquo;block reward&rdquo; of coin assigned to the miner&rsquo;s address. The hash constitutes a proof of work because the hash is determined by the previous node, the included transactions, and the specific nonce that made the hash fit the constraints of the target. The reward is a special type of transaction that is recorded as the first transaction in the block. Every 210,000 blocks the block reward is cut in half.</li>
 </ol>
 </li>
 <li><p> Generation of blocks is automatically sped up or slowed such that 2016 blocks takes 2 weeks, by adaptively adjusting a value called the target, which controls the difficulty level. At each 2016-block milestone, the network adjusts the difficulty level to match the network&rsquo;s total computational power. This adjustment is made by every client comparing the time it took to generate the blocks with the 2 week ideal, and modifying the target by the percentage difference. And all clients of course end up having the same target.</p></li>
