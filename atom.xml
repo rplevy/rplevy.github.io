@@ -4,7 +4,7 @@
   <title><![CDATA[rplevy]]></title>
   <link href="http://rplevy.github.io/atom.xml" rel="self"/>
   <link href="http://rplevy.github.io/"/>
-  <updated>2013-11-22T16:45:17-08:00</updated>
+  <updated>2013-12-16T23:15:04-08:00</updated>
   <id>http://rplevy.github.io/</id>
   <author>
     <name><![CDATA[Robert P. Levy]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Review: Clojure High Performance Programming]]></title>
+    <link href="http://rplevy.github.io/blog/2013/12/16/review-clojure-high-performance-programming/"/>
+    <updated>2013-12-16T19:27:53-08:00</updated>
+    <id>http://rplevy.github.io/blog/2013/12/16/review-clojure-high-performance-programming</id>
+    <content type="html"><![CDATA[<p>If you happen to be a software engineer who uses Clojure in production or in any serious capacity, I would recommend getting a copy of Shantanu Kumar&rsquo;s book &ldquo;Clojure High Performance Programming&rdquo; (2013, Packt Publishing). A valid worry when discovering any new Clojure book is, will it be &ldquo;yet another Clojure beginner book&rdquo;? The answer to that question in this case is almost definitely a &ldquo;no&rdquo;, however for the hardcore JVM performance expert it may be a little slow-moving. From my perspective however, as someone who has had several years of experience developing high-performance distributed systems in Clojure, I found it to be quite valuable and informative. The book is a short but consistently high-quality 133 pages of substantive facts, useful reference tables, and accessible documentation of contemporary best practices for high-performance design, optimization, and profiling. As one might expect from the title, it is thoroughly grounded in real-world practice; there are only a few Clojure books in that category, and I would venture to say that this one is the best yet (as far as Clojure books <em>in general</em> go, The Joy of Clojure is the best book-length articulation of the Clojure idiom).</p>
+
+<p>The first chapter defines common terms as they are to be applied throughout the book, and also introduces a theme that is revisited throughout the book, of performance modeling, objectives, and planning as being of fundamental importance in developing high-performance systems. Chapter 2 explores the performance properties of Clojure-specific abstractions (including a great table of algorithmic complexities of common operations on Clojure&rsquo;s persistent data structures), whereas Chapter 3 does the same for Java-level abstractions. Chapter 4 presents an overview of modern hardware architecture followed by an in-depth discussion of the JVM, which leads into Chapter 5, the concurency chapter, which in addition to being the best performance-focused treatment on concurrency and parallelism in Clojure/Java I have seen in one place, might easily be the most thorough treatment of Clojure/Java concurrency and parallelism features and data structures I have seen, in one place. And not least of this is a discussion of reducers, a topic that for whatever reasons has not been explored much beyond Rich Hickey&rsquo;s somewhat opaque inaugural articles (I will admit to having used reducers, and having used them effectively, without fully understanding their implementation, much less Rich&rsquo;s masterplan&mdash; but I now have a somewhat better grasp of reducers). Chapter 6 and 7 explore performance analysis, optimization, and design at the unit, application, and system architectural levels.</p>
+
+<p>The approaches described here are very much in keeping with my own experiences, but yet even where it was covering well-trodden ground, I found it valuable to read and learned a great deal. The bottom line is this book does a really good job of covering and conveying nuances of some interesting performance topics, and I think it is a great and much needed addition to the available selection of books on Clojure.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Notes on Bitcoin]]></title>
@@ -60,7 +73,7 @@
 <li>The first node that happens to arbitrarily win the race to compute a hash &lt;= the target, gets a &ldquo;block reward&rdquo; of coin assigned to the miner&rsquo;s address. The hash constitutes a proof of work because the hash is determined by the previous node, the included transactions, and the specific nonce that made the hash fit the constraints of the target. The reward is a special type of transaction that is recorded as the first transaction in the block. Every 210,000 blocks the block reward is cut in half.</li>
 </ol>
 </li>
-<li><p> Generation of blocks is automatically sped up or slowed such that 2016 blocks takes 2 weeks, by adaptively adjusting a value called the target, which controls the difficulty level. At each 2016-block milestone, the network adjusts the difficulty level to match the network&rsquo;s total computational power. This adjustment is made by every client comparing the time it took to generate the blocks with the 2 week ideal, and modifying the target by the percentage difference. And all clients of course end up having the same target.</p></li>
+<li><p> Generation of blocks is automatically sped up or slowed to ensure that 2016 blocks takes 2 weeks, by adaptively adjusting the target, which controls the difficulty level. At each 2016-block milestone, the network adjusts the difficulty level to match the network&rsquo;s total computational power. This adjustment is made by every client comparing the time it took to generate the blocks with the 2 week ideal, and modifying the target by the percentage difference. And all clients of course end up having the same target.</p></li>
 </ul>
 
 

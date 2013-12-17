@@ -133,7 +133,7 @@
 <li>The first node that happens to arbitrarily win the race to compute a hash &lt;= the target, gets a &ldquo;block reward&rdquo; of coin assigned to the miner&rsquo;s address. The hash constitutes a proof of work because the hash is determined by the previous node, the included transactions, and the specific nonce that made the hash fit the constraints of the target. The reward is a special type of transaction that is recorded as the first transaction in the block. Every 210,000 blocks the block reward is cut in half.</li>
 </ol>
 </li>
-<li><p> Generation of blocks is automatically sped up or slowed such that 2016 blocks takes 2 weeks, by adaptively adjusting a value called the target, which controls the difficulty level. At each 2016-block milestone, the network adjusts the difficulty level to match the network&rsquo;s total computational power. This adjustment is made by every client comparing the time it took to generate the blocks with the 2 week ideal, and modifying the target by the percentage difference. And all clients of course end up having the same target.</p></li>
+<li><p> Generation of blocks is automatically sped up or slowed to ensure that 2016 blocks takes 2 weeks, by adaptively adjusting the target, which controls the difficulty level. At each 2016-block milestone, the network adjusts the difficulty level to match the network&rsquo;s total computational power. This adjustment is made by every client comparing the time it took to generate the blocks with the 2 week ideal, and modifying the target by the percentage difference. And all clients of course end up having the same target.</p></li>
 </ul>
 
 
@@ -198,6 +198,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/2013/12/16/review-clojure-high-performance-programming/" title="Next Post: Review: Clojure High Performance Programming">Review: Clojure High Performance Programming &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -209,6 +211,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/12/16/review-clojure-high-performance-programming/">Review: Clojure High Performance Programming</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/11/21/notes-on-bitcoin/">Notes on Bitcoin</a>

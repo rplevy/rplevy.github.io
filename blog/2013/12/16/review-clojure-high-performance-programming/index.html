@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Review: Clojure High Performance Programming - rplevy</title>
+  <meta name="author" content="Robert P. Levy">
+
+  
+  <meta name="description" content="If you happen to be a software engineer who uses Clojure in production or in any serious capacity, I would recommend getting a copy of Shantanu Kumar &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rplevy.github.io/blog/2013/12/16/review-clojure-high-performance-programming">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="rplevy" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">rplevy</a></h1>
+  
+    <h2>web log</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rplevy.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Review: Clojure High Performance Programming</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-16T19:27:53-08:00" pubdate data-updated="true">Dec 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>If you happen to be a software engineer who uses Clojure in production or in any serious capacity, I would recommend getting a copy of Shantanu Kumar&rsquo;s book &ldquo;Clojure High Performance Programming&rdquo; (2013, Packt Publishing). A valid worry when discovering any new Clojure book is, will it be &ldquo;yet another Clojure beginner book&rdquo;? The answer to that question in this case is almost definitely a &ldquo;no&rdquo;, however for the hardcore JVM performance expert it may be a little slow-moving. From my perspective however, as someone who has had several years of experience developing high-performance distributed systems in Clojure, I found it to be quite valuable and informative. The book is a short but consistently high-quality 133 pages of substantive facts, useful reference tables, and accessible documentation of contemporary best practices for high-performance design, optimization, and profiling. As one might expect from the title, it is thoroughly grounded in real-world practice; there are only a few Clojure books in that category, and I would venture to say that this one is the best yet (as far as Clojure books <em>in general</em> go, The Joy of Clojure is the best book-length articulation of the Clojure idiom).</p>
+
+<p>The first chapter defines common terms as they are to be applied throughout the book, and also introduces a theme that is revisited throughout the book, of performance modeling, objectives, and planning as being of fundamental importance in developing high-performance systems. Chapter 2 explores the performance properties of Clojure-specific abstractions (including a great table of algorithmic complexities of common operations on Clojure&rsquo;s persistent data structures), whereas Chapter 3 does the same for Java-level abstractions. Chapter 4 presents an overview of modern hardware architecture followed by an in-depth discussion of the JVM, which leads into Chapter 5, the concurency chapter, which in addition to being the best performance-focused treatment on concurrency and parallelism in Clojure/Java I have seen in one place, might easily be the most thorough treatment of Clojure/Java concurrency and parallelism features and data structures I have seen, in one place. And not least of this is a discussion of reducers, a topic that for whatever reasons has not been explored much beyond Rich Hickey&rsquo;s somewhat opaque inaugural articles (I will admit to having used reducers, and having used them effectively, without fully understanding their implementation, much less Rich&rsquo;s masterplan&mdash; but I now have a somewhat better grasp of reducers). Chapter 6 and 7 explore performance analysis, optimization, and design at the unit, application, and system architectural levels.</p>
+
+<p>The approaches described here are very much in keeping with my own experiences, but yet even where it was covering well-trodden ground, I found it valuable to read and learned a great deal. The bottom line is this book does a really good job of covering and conveying nuances of some interesting performance topics, and I think it is a great and much needed addition to the available selection of books on Clojure.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Robert P. Levy</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-16T19:27:53-08:00" pubdate data-updated="true">Dec 16<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/clojure/'>clojure</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rplevy.github.io/blog/2013/12/16/review-clojure-high-performance-programming/" data-via="" data-counturl="http://rplevy.github.io/blog/2013/12/16/review-clojure-high-performance-programming/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/11/21/notes-on-bitcoin/" title="Previous Post: Notes on Bitcoin">&laquo; Notes on Bitcoin</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/12/16/review-clojure-high-performance-programming/">Review: Clojure High Performance Programming</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/21/notes-on-bitcoin/">Notes on Bitcoin</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Robert P. Levy -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
