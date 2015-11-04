@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/rplevy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rplevy.info
+  * I am rplevy (https://keybase.io/rplevy) on keybase.
+  * I have a public key with fingerprint 6382 805E 6D33 870C 9A42  40B3 73C5 7C51 49A3 C990
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fb640f46f5c36e440ed4cab728c55154240c99ea20bb848a31187618942aa5e30a",
+            "fingerprint": "6382805e6d33870c9a4240b373c57c5149a3c990",
+            "host": "keybase.io",
+            "key_id": "73c57c5149a3c990",
+            "kid": "0101fb640f46f5c36e440ed4cab728c55154240c99ea20bb848a31187618942aa5e30a",
+            "uid": "fa3f332f16e8e64d723e9ba68c137f00",
+            "username": "rplevy"
+        },
+        "service": {
+            "hostname": "rplevy.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1446626468,
+    "expire_in": 157680000,
+    "prev": "47edc15b820ead5c89d55e1b6bc932514e932f969606a1079dbc40c320ac0f91",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMM+AnicrVJrUFVVFL5cLs9QQBjAGgEPzYQNcc/7cQUVbUocCUGBKag7+5yzDxzA
+c2/3weuCpIGMrwZjnEbUNLSALEwMBB9TJI/0UvRgCIZHNhLZTMiQAmEWncPUj2b6
+2f6zZq/1fd9a65vVvcJT5+9h7ylPSz57s9bD3VXn1GVy3edcCG8RSxGTCymAywEW
+itDuMBfIImJCUAzFJJ4mUYmkJUogaEiSKBRJAfAMzgoUhVEkTqICx0GAozzPkiwg
+MIxlaIzlSBwAChIoQOIQSVZyoc1qkxWHKksTLM6iFKRFgmAZlQ40FZ5gCIFiBAoj
+OUComqhKzLPYNYY6HA/sMF62qDn1Y14e7z/w//PczmU5CRASQeASRkMW0qTI4ATk
+eECzAkYwEqr1ddqhTQG7oYq2WQthUSlSEYeouSJZgJqt2h7/qsfLiqQtY7VZHBbB
+UqgW8hwOq0njOUqtGrAY8ua/Jcy8rIiqhyqhCNrsskVBTJiKFByypomRJE3jNEmz
+cQgssco2aJY1BMXQLKo+rQ0sUiVJBooCRvEsjkIgUgLLiRQFMZ7mBY7AVSehGiSO
+5miUBhjKcCIvqD4ROAoEVOIwRFvqVcWCmNRODpCrStrlXAU4nDaIVHzWlWPQefjr
+vL302m3p/P2C/rm4qcXAPzmdX+eGtMMgYjzoTvk6w5tV7ZcDzPdCKwMKUp49dftO
+9aA3SGr1MUUsSnWRSTU5b/TptyiuVaEPepPM79ytccMzMemN09jKqNmExJLzuvef
+AzFXM38OPTRxS0muevq1lPV5aEP4ja87g8ImLyyuaT2+NiSx+cTxtouLBczFjoQs
+X6+B1sNfps7nj+afjb50uvpeU3boQPKaZ8LHitM79IU6o/7SB1ONw+23lny/694e
+UZlnDI98137d3HzDsOu+7ujCtrcLFM/PP3ppw8OGhF8OHmmaXO0O3uR1faJfXF2W
+vtMn29aQgdy3zO4zphcO0Vd6uLnBy0NYdcrji3eLD+1Hz0SPvZVvBC5XT9P6b9pm
++rb1+eamznt96uPM2lPX8WjmZIuPdficO/gpt3fM8xlHhq/MZ5aNsZta5vrbqRUf
+fh9SOx7mdBA7ArvD8Y+bNj6Bj1QoPeW1Zs/f5lvXfRLvDh+d+Wluc2+ROPJ64tWI
+gY0JRAmxGZnedT5oZ3nK1L62sP6owD9Sl/bv1eNbF7piXz46ZT02dG1v/aM9B75o
+vKavHAm6PbtU5Zf22AvfdjdGXajPCXlv7UmDYeKHyJhBO12/Qzw92Ra/NefYr1ua
+4VL0KVfGyq/yAjrHa2On+6QfX8QfjOUYJzPbf08era/JHt0dW2aOmXqyvqQ3Mavl
+ldCDwSmruh4aF27+BeAIuWI=
+=ZzTr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rplevy
+
+==================================================================
